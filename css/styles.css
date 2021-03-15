@@ -1,0 +1,25 @@
+@charset "utf-8";
+.nft-container {
+	border: medium solid red;
+	padding: 10px 20px 10px 20px;
+	margin: 50px;
+	background-color: antiquewhite; 
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.dummy-text{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background-color: #B983DA;
+	border: 5px solid #3FCE2D
+}
+
+#picture{
+width: 500px;
+height: 281px;
+object-fit: scale-down;
+}
