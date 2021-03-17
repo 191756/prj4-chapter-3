@@ -1,21 +1,65 @@
-@charset "utf-8";
+*{ margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+.title {
+	color: #FF7800;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+
+header {
+	padding: 121px;
+  text-align: center;
+  background-image: url("../images/header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  color: white;
+  font-size: 30px;
+}
+
+footer {
+  text-align: right;
+	padding: 20px;
+  background-color: #727272;
+  color: white;
+  font-size: 25px;
+}
+
+nav{
+	padding: 20px;
+	text-align: center;
+	background-color: #FAEBD7
+}
+
+.crumb {
+    display: inline-block;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 70px;
+}
+
+section{
+	padding-top: 10px;
+	padding-left: 20px
+}
+
 .nft-container {
-	border: medium solid red;
-	padding: 10px 20px 10px 20px;
-	margin: 50px;
-	background-color: antiquewhite; 
+	border: none;
+	padding: 10px 100px 30px 100px;
+	margin: 20px 50px 0px 50px;
+	background-color: antiquewhite;
+}
+
+style{
+	font-family: 'Chango', cursive;
 }
 
 h1{
 	text-align: center;
 	text-decoration: underline;
 	font-weight: bolder;
-}
-
-.dummy-text{
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	background-color: #B983DA;
-	border: 5px solid #3FCE2D
 }
 
 #picture{
