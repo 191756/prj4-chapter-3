@@ -1,4 +1,20 @@
-*{ margin: 0; padding: 0; border: 0; font-size: 100%; }
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body{
+	font-family: bodoni-urw, serif;
+	font-weight: 500;
+	font-size: 14pt;
+	font-style: normal;
+}
 
 .title {
 	color: #FF7800;
@@ -18,6 +34,30 @@ header {
   font-size: 30px;
 }
 
+h2{
+	padding-bottom: 20px;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 800;
+}
+
+.about{
+	align-content: center;
+	padding: 20px 0px 0px 50px
+	
+}
+
+.jumbotron-fluid{
+	background-color: #EFCBCC;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.carousel {
+	height: 300px;
+	width: 200px;
+}
+
 footer {
   text-align: right;
 	padding: 20px;
@@ -32,7 +72,7 @@ nav{
 	background-color: #FAEBD7
 }
 
-.crumb {
+.nav-link {
     display: inline-block;
     color: #000;
     font-size: 15px;
@@ -52,9 +92,6 @@ section{
 	background-color: antiquewhite;
 }
 
-style{
-	font-family: 'Chango', cursive;
-}
 
 h1{
 	text-align: center;
@@ -63,7 +100,7 @@ h1{
 }
 
 #picture{
-width: 500px;
+width: 700px;
 height: 281px;
 object-fit: scale-down;
 }
